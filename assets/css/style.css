@@ -1,0 +1,56 @@
+*, *::before, *::after{
+box-sizing: border-box;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 24px;
+}
+
+body{
+    padding:0 ;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height:100vh ;
+    justify-content: center ;
+    align-items: center;
+    background-color: rgb(18, 64, 117);
+}
+
+.container {
+     width: 800px;
+     max-width: 80%;
+     background-color: beige;
+     border-radius: 5px;
+     padding: 10px;
+     box-shadow: 0 0 10px 2px ;
+}
+.btn-grid{
+    display: grid;
+    gap: 10px;
+    margin: 20px 0;
+}
+.btn{
+    border: 1px solid black;
+    background-color: rgb(25, 69, 108);
+    border-radius:5px ; 
+    padding: 5px 10px;
+    color: white;
+    outline: none ;
+
+}
+.btn:hover{
+    border-color: black;
+    background-color: rgb(94, 94, 121);
+}
+.start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide{
+    display: none;
+}
