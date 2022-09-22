@@ -27,6 +27,7 @@ body{
     display: grid;
     gap: 10px;
     margin: 20px 0;
+    grid-template-columns: auto;
 }
 .btn{
     border: 1px solid black;
@@ -41,6 +42,22 @@ body{
     border-color: black;
     background-color: rgb(94, 94, 121);
 }
+.btn.correct{
+    background-color: green;
+    color: black;
+
+
+}
+.btn.wrong{
+    background-color: rgb(161, 37, 66);
+
+
+}
+
+.btn.selectedwrong{
+    background-color: rgb(71, 18, 30);
+}
+
 .start-btn, .next-btn {
     font-size: 1.5rem;
     font-weight: bold;
